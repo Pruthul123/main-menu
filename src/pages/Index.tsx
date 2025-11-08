@@ -3,10 +3,6 @@ import MenuSection from "@/components/MenuSection";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Index = () => {
-  const specialItem = [
-    { name: "Buttermilk (500gm)", price: "18" },
-    { name: "Mango Ras", price: "-" },
-  ];
   const mainMenuItems = [
     { name: "Kesar Peda", price: "₹330/kg" },
     { name: "Malaai Peda", price: "₹330/kg" },
@@ -21,6 +17,10 @@ const Index = () => {
     { name: "Besan Ladu", price: "₹330/kg" },
     { name: "Motichur Ladu", price: "₹190/kg" },
     { name: "Bundi Ladu", price: "₹190/kg" },
+  ];
+  const specialItem = [
+    { name: "Buttermilk (500gm)", price: "18" },
+    { name: "Mango Ras", price: "-" },
   ];
 
   const premiumItems = [
