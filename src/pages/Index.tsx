@@ -87,10 +87,11 @@ const Index = () => {
           </TabsList>
           
           <TabsContent value="main" className="space-y-8">
+            <MenuSection title="Special Items" items={specialItem} columns={2} />
             <MenuSection title="Traditional Sweets" items={mainMenuItems} columns={2} />
             <MenuSection title="Premium Sweets" items={premiumItems} columns={2} />
             <MenuSection title="Barfi Collection" items={barfiItems} columns={2} />
-            <MenuSection title="Special Items" items={specialItems} columns={2} />
+            <MenuSection title="Gulab Jambu & More" items={specialItems} columns={2} />
             <MenuSection title="Shreekhand Varieties" items={shreekhands} columns={2} />
             <MenuSection title="Drinks & Beverages" items={drinks} columns={2} />
 
